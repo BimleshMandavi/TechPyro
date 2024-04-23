@@ -5,7 +5,7 @@ import React from 'react'
 const Navbar = () => {
   return (
     <div className='bg-black sm:w-[1807px] sm:h-[100px] text-white flex justify-between items-center'>
-      <div className='flex justify-between px-4 py-4 '>
+      <Link className='flex justify-between px-4 py-4 ' href="/">
         <Image src="/techpyro.svg" 
         alt='TechPyro Logo'
         height={70}
@@ -13,7 +13,7 @@ const Navbar = () => {
         priority
      
      />
-      </div>
+      </Link>
        <div className='hidden sm:flex sm:justify-between sm:gap-4 '>
         <Link className='text-[#FF7F0E]' href="/">HOME</Link>
         <Link className='pl-4' href="/about">ABOUT US</Link>
