@@ -6,17 +6,17 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import { IoIosArrowDropdownCircle } from "react-icons/io";
 import { Avatar } from "@mui/material";
-import Navbar from "@/layouts/navbar/page";
+
 
 
 
 export default function Home() {
   return (
 
-    <div className="overflow-x-hidden">
+    <div className="pb-7">
     <div className="relative h-[728.98px] w-full bg-custom-bg bg-cover bg-center text-white">
       <div className="absolute inset-0 bg-black bg-opacity-70" />
-      <div className="relative flex items-center  h-full space-y-4 ml-8 text-start">
+      <div className="relative flex items-center   h-full  space-y-4 ml-6 md:ml-8 text-start ">
         <Image src="/rectangle-1.svg" alt="Example" width={4} height={222} />
         <div className="flex justify-between flex-col gap-1 mx-6">
         <h1 className="text-4xl font-bold ">The Tech</h1>
@@ -27,28 +27,28 @@ export default function Home() {
           effortlessly hire the best developers thanks to a powerful suite of virtual recruiting
           tools that help identify, assess, interview, and engage developers.
         </p>
-        <div className="mt-10 flex justify-between pr-3">
-         <div className="w-[220px] h-[44px] bg-[#0C487B] flex justify-evenly items-center rounded cursor-pointer">
-          <FaPlayCircle />
-           <div> <button>SWIPE TO THIS VIDEO</button></div>
+        <div className="mt-10 flex justify-between w-full ">
+         <div className=" h-[44px] bg-[#0C487B] flex justify-evenly p-2 items-center rounded cursor-pointer">
+          <FaPlayCircle className="" />
+           <div><button className="text-[12px]">SWIPE TO THIS VIDEO</button></div>
            </div>
-           <div className="h-[44px] w-[140px] bg-[#000000] flex justify-center items-center rounded text-center"><button>WE ARE HIRING</button></div>
+           <div className="h-[44px]  bg-[#000000] flex justify-center items-center rounded text-center"><button className="text-[12px]">WE ARE HIRING</button></div>
         </div>
         </div>
       </div>
     </div>
-    <div className="px-10 py-8 mx-5">
+    <div className=" py-8 mx-5">
       <h1 className="text-black font-bold text-[25px]">Our Services</h1>
       <div className="sm:flex sm:justify-between">
-      <p className="pt-5 text-[16px] font-normal w-[50%]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi velit nam libero quidem quasi, recusandae aliquid, corporis architecto minima animi accusantium possimus eaque alias maiores aut officia quis illum. Illum fugiat quod quibusdam amet animi maxime omnis, dolorem reprehenderit neque libero, nostrum numquam, suscipit recusandae! Tenetur provident iure at excepturi, eveniet, repudiandae, quod commodi impedit inventore sint pariatur! Quos fugiat labore rem voluptates beatae nostrum, consequatur delectus exercitationem hic veniam aspernatur molestias dicta placeat totam necessitatibus ullam, assumenda, vitae deserunt!</p>
+      <p className="pt-5 text-[16px] font-normal sm:w-[50%]">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi velit nam libero quidem quasi, recusandae aliquid, corporis architecto minima animi accusantium possimus eaque alias maiores aut officia quis illum. Illum fugiat quod quibusdam amet animi maxime omnis, dolorem reprehenderit neque libero, nostrum numquam, suscipit recusandae! Tenetur provident iure at excepturi, eveniet, repudiandae, quod commodi impedit inventore sint pariatur! Quos fugiat labore rem voluptates beatae nostrum, consequatur delectus exercitationem hic veniam aspernatur molestias dicta placeat totam necessitatibus ullam, assumenda, vitae deserunt!</p>
       <div className="hidden sm:flex w-[220px] h-[44px] bg-[#0C487B]  rounded text-white  sm:text-sm sm:mt-[140px] sm:justify-center">
            <button className="">EXPLORE MORE OPENINGS</button>
            </div>
       </div>
     </div>
-    <div className="px-5 py-5 flex flex-col  justify-center gap-8">
-      <div className="sm:flex sm:flex-wrap  sm:gap-8 sm:w-[1552px] sm:mx-5">
-     <div className="flex sm:w-[496px] sm:h-[386px] flex-col gap-2 border-r-[10px] border-b-[10px] border-[#0C487BD4] rounded-[14px] p-5 ">
+    <div className="px-5 py-5 flex flex-col  justify-center gap-8 ">
+      <div className=" w-[368px]  px-4 sm:flex sm:flex-wrap  sm:gap-8 sm:w-full sm:mx-5">
+     <div className="flex   sm:w-[496px] sm:h-[386px] flex-col gap-2 border-r-[10px] border-b-[10px] border-[#0C487BD4] rounded-[14px] p-5 ">
         <div className="flex"> 
       <div className="border-2 border-red-500 rounded-full p-2"> 
         <div className="rounded-full overflow-hidden"> 
@@ -59,7 +59,7 @@ export default function Home() {
       <h1 className="text-black font-bold text-[16px]">Web Design & Development</h1>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sit dolores corrupti laborum reprehenderit repellat ea numquam dolorum repellendus dolore a commodi illum optio, laboriosam hic quidem, qui delectus. Esse voluptate libero veritatis quisquam neque aperiam sapiente consequuntur tempora ab architecto. Explicabo maxime a quasi id atque! Suscipit, magnam excepturi!</p>
       </div>
-        <div className="flex flex-col sm:w-[496px] sm:h-[386px] gap-2 border-r-[10px] border-b-[10px] border-[#335c80d4] rounded-[14px] bg-[#0C487B] text-white p-5">
+        <div className="flex  flex-col sm:w-[496px] sm:h-[386px] gap-2 border-r-[10px] border-b-[10px] border-[#335c80d4] rounded-[14px] bg-[#0C487B] text-white p-5">
         <div className="flex"> 
       <div className="border-2 border-red-500 rounded-full p-2"> 
         <div className="rounded-full overflow-hidden"> 
@@ -249,7 +249,7 @@ font-bold tracking-widest">FAQ</h4>
           </div>
          </div>
       </div>
-      <div className="bg-gb-bg bg-cover w-[431px] sm:w-[1621px] h-[953px] pt-8">
+      <div className="bg-gb-bg bg-cover w-[368pxpx] sm:w-[1621px]  pt-8">
         <div className="text-center">
         <h4 className="text-[#FF7F0E] text-base
 font-bold tracking-widest">WE WORK</h4>
@@ -330,8 +330,8 @@ font-bold tracking-widest">WE WORK</h4>
             is a tech hiring platform that helps recruiters and engineering managers effortlessly hire the best developers thanks to a powerful suite of virtual recruiting tools that help identify, assess, interview and engage developers.
           </p>
         </div>
-        <div className="sm:flex">
-        <div className="border-2 border-[#717171] w-[368px] h-[314px] p-4 rounded-lg ml-7 mt-5 ">
+        <div className="sm:flex sm:justify-evenly sm:gap-5">
+        <div className="border-2 border-[#717171] w-[368px] h-[314px] p-4 rounded-lg  mt-5 ">
         <div className=" flex gap-4 py-5">
           <div className="">
             <Avatar>
@@ -348,7 +348,7 @@ font-bold tracking-widest">WE WORK</h4>
         </p>
         <Image src="/client-logo.svg" alt="code" width={68} height={34} />
         </div>
-        <div className="border-2 border-[#717171] w-[368px] h-[314px] p-4 rounded-lg ml-7 mt-5 ">
+        <div className="border-2 hidden md:flex border-[#717171] w-[368px] h-[314px] p-4 rounded-lg  mt-5 ">
         <div className=" flex gap-4 py-5">
           <div className="">
             <Avatar>
@@ -365,7 +365,7 @@ font-bold tracking-widest">WE WORK</h4>
         </p>
         <Image src="/client-logo.svg" alt="code" width={68} height={34} />
         </div>
-        <div className="border-2 border-[#717171] w-[368px] h-[314px] p-4 rounded-lg ml-7 mt-5 ">
+        <div className="border-2  hidden md:flex border-[#717171] w-[368px] h-[314px] p-4 rounded-lg  mt-5 ">
         <div className=" flex gap-4 py-5">
           <div className="">
             <Avatar>
@@ -382,7 +382,7 @@ font-bold tracking-widest">WE WORK</h4>
         </p>
         <Image src="/client-logo.svg" alt="code" width={68} height={34} />
         </div>
-        <div className="border-2 border-[#717171] w-[368px] h-[314px] p-4 rounded-lg ml-7 mt-5 ">
+        <div className="border-2  hidden md:flex border-[#717171] w-[368px] h-[314px] p-4 rounded-lg  mt-5 ">
         <div className=" flex gap-4 py-5">
           <div className="">
             <Avatar>
