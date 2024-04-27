@@ -4,7 +4,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <div className='bg-black sm:w-[1807px] sm:h-[100px] text-white flex justify-between items-center'>
+    <div className='bg-black  sm:w-[1807px] sm:h-[100px] text-white flex justify-between items-center'>
       <Link className='flex justify-between px-4 py-4 ' href="/">
         <Image src="/techpyro.svg" 
         alt='TechPyro Logo'

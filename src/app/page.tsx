@@ -13,7 +13,7 @@ import { Avatar } from "@mui/material";
 export default function Home() {
   return (
 
-    <div className="pb-7">
+    <div className="pb-7 ">
     <div className="relative h-[728.98px] w-full bg-custom-bg bg-cover bg-center text-white">
       <div className="absolute inset-0 bg-black bg-opacity-70" />
       <div className="relative flex items-center   h-full  space-y-4 ml-6 md:ml-8 text-start ">
