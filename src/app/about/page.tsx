@@ -103,7 +103,7 @@ const AboutPage = () => {
             <Image src="/mission3.svg" alt='mission' width={366} height={245} />
         </div>
       </div>
-      <div className='bg-[#050505]  h-[1011px] text-white flex flex-col items-center px-8'>
+      <div className='bg-[#050505]  h-[1211px] text-white flex flex-col items-center px-8'>
         <div className='text-[28px]'>
           <h1 className='font-bold'>We give our people everything</h1> <span>that’s needed to succeed</span>
         </div>
@@ -138,12 +138,16 @@ const AboutPage = () => {
       </li>
     </ul>
       </div>
-      <div className='bg-[#050505]  h-[1011px] text-white px-8 '>
+      <div className='bg-[#050505]  text-white px-8 '>
         <div className='pt-5'>
           <h5 className='text-[#FF7F0E] text-[12px]'>OUR TEAM</h5>
           <h1 className='font-black text-[28px]'>Meet Our</h1>
           <span className='text-[28px] font-normal'>Best Teams</span>
           <p className='text-[14px] font-medium pt-4'>ThinkHumble is a tech hiring platform that helps recruiters and engineering managers effortlessly hire the best developers thanks</p>
+        </div>
+        <div className='flex'>
+          <Image src="men1.svg" width={177.51} height={286} alt='grp'/>
+          <Image src="women1.svg" width={177.51} height={286} alt='grp'/>
         </div>
       </div>
     </div>
