@@ -145,7 +145,7 @@ const AboutPage = () => {
           <span className='text-[28px] font-normal'>Best Teams</span>
           <p className='text-[14px] font-medium pt-4'>ThinkHumble is a tech hiring platform that helps recruiters and engineering managers effortlessly hire the best developers thanks</p>
         </div>
-        <div className='flex'>
+        <div className='flex pt-4'>
           <Image src="men1.svg" width={177.51} height={286} alt='grp'/>
           <Image src="women1.svg" width={177.51} height={286} alt='grp'/>
         </div>
