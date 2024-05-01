@@ -345,7 +345,7 @@ font-bold tracking-widest">WE WORK</h4>
         </p>
         <Image src="/client-logo.svg" alt="code" width={68} height={34} />
         </div>
-        <div className="border-2 hidden md:flex border-[#717171] w-[368px] h-[314px] p-4 rounded-lg  mt-5 ">
+        <div className="border-2 hidden md:flex md:flex-col border-[#717171] w-[368px] h-[314px] p-4 rounded-lg  mt-5 ">
         <div className=" flex gap-4 py-5">
           <div className="">
             <Avatar>
@@ -362,7 +362,7 @@ font-bold tracking-widest">WE WORK</h4>
         </p>
         <Image src="/client-logo.svg" alt="code" width={68} height={34} />
         </div>
-        <div className="border-2  hidden md:flex border-[#717171] w-[368px] h-[314px] p-4 rounded-lg  mt-5 ">
+        <div className="border-2  hidden md:flex md:flex-col border-[#717171] w-[368px] h-[314px] p-4 rounded-lg  mt-5 ">
         <div className=" flex gap-4 py-5">
           <div className="">
             <Avatar>
@@ -379,7 +379,7 @@ font-bold tracking-widest">WE WORK</h4>
         </p>
         <Image src="/client-logo.svg" alt="code" width={68} height={34} />
         </div>
-        <div className="border-2  hidden md:flex border-[#717171] w-[368px] h-[314px] p-4 rounded-lg  mt-5 ">
+        <div className="border-2  hidden md:flex md:flex-col border-[#717171] w-[368px] h-[314px] p-4 rounded-lg  mt-5 ">
         <div className=" flex gap-4 py-5">
           <div className="">
             <Avatar>
