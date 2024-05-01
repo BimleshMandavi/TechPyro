@@ -8,11 +8,8 @@ import { IoIosArrowDropdownCircle } from "react-icons/io";
 import { Avatar } from "@mui/material";
 
 
-
-
 export default function Home() {
   return (
-
     <div className="pb-7 ">
     <div className="relative h-[728.98px] w-full bg-custom-bg bg-cover bg-center text-white">
       <div className="absolute inset-0 bg-black bg-opacity-70" />
