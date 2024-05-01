@@ -1,27 +1,70 @@
 
+import { Box, TextField, Typography } from '@mui/material'
 import Image from 'next/image'
 import React from 'react'
+import { Input } from "@/components/ui/input"
+
 
 
 const ContactPage:React.FC = () => {
   return (
-    <div>
+    <div className='h-full w-full'>
       <div className="relative h-full w-full bg-custom-bg bg-cover bg-center text-white">
       <div className="absolute inset-0 bg-black bg-opacity-80" />
-     <div className='relative flex flex-col items-center '>
-       <div className=' bg-black w-[358px] h-[559px] m-14 text-white'>
-        <div className='text-center pt-5'>
+     <div className='relative flex flex-col  items-center sm:flex-row sm:justify-center'>
+       <div className=' bg-black w-[358px] h-full m-14 text-white rounded  sm:w-[50%] '>
+          <div className='text-center pt-5 sm:flex sm:flex-col sm:justify-center items-center'>
           <h1 className='text-[24px] font-black'>Get In Tuch</h1>
-           <Image className='pt-3' src="rtc1.svg" width={383} height={1} alt='map' />
+           <Image className='pt-3 text-center' src="rtc1.svg" width={383} height={1} alt='map' />
         </div>
 
-        <form>
-
-        </form>
+        <div className='flex flex-col justify-between gap-8 sm:flex-row sm:pt-8 '>
+          <div>
+            <form className='flex flex-col justify-evenly  gap-6 pl-4'>
+           <Input className='bg-[#0A0A0A] h-[44px] w-[316px]' type="text" placeholder="First Name" />
+          <Input className='bg-[#0A0A0A] h-[44px] w-[316px]' type="email" placeholder="Email Address" />
+           <Input className='bg-[#0A0A0A] h-[44px] w-[316px]' type="tel" placeholder="Enter contact number" />
+           <Input className='bg-[#0A0A0A] h-[44px] w-[316px]' type="text" placeholder="How did you find us?" />
+           <div className='bg-[#0C487B] w-[138px] sm:w-full h-[40px] text-center rounded '>
+            <button className='text-[12px] font-semibold Inter pt-3'>SUBMIT INQUIRY</button>
+            </div>
+      </form>
+      <div className='bg-[#0A0A0A] w-[358px] h-[165px] flex flex-wrap items-center gap-6 p-4'>
+            <div className='flex gap-3'>
+              <div>
+                <Image src="phone02.svg" width={28} height={28} alt='phone'/>
+              </div>
+              <div>
+                <h1>PHONE</h1>
+                <p className='text-[#0C487B] text-[13px] font-semibold'>0354321234</p>
+              </div>
+            </div>
+            <div className='flex gap-3'>
+              <div>
+                <Image src="fax.svg" width={28} height={28} alt='fax'/>
+              </div>
+              <div>
+                <h1>FAX</h1>
+                <p className='text-[#0C487B] text-[13px] font-semibold'>0354321234</p>
+              </div>
+            </div>
+            <div className='flex gap-3'>
+              <div>
+                <Image src="email-box.svg" width={28} height={28} alt='email'/>
+              </div>
+              <div>
+                <h1>EMAIL</h1>
+                <p className='text-[#0C487B] text-[13px] font-semibold'>info@marcc.com.au</p>
+              </div>
+            </div> 
+          </div>
+          </div>
+           <div className='sm:w-[50%] sm:h-[50%]'>
+        <Image className='sm:h-[325px]'  src="map.svg" width={368} height={211} alt='map' />
       </div>
-      <div>
-        <Image src="map.svg" width={368} height={211} alt='map' />
+        </div>
       </div>
+      
      </div>
     </div>
     </div>
