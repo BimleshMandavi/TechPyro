@@ -4,7 +4,7 @@ import React from 'react'
 
 const FooterPage = () => {
   return (
-    <div className=' bg-black text-white pt-8 h-[111px] sm:h-[469px] sm:w-full'>
+    <div className=' bg-[#1B1B1B] text-white pt-8 h-[111px] sm:h-[469px] sm:w-full'>
       <div className='flex justify-between sm:hidden px-5  top-[6842px] left-[1px]'>
       <div className='flex flex-col justify-center items-center gap-4 text-center'>
      <Link href="about">
@@ -83,9 +83,9 @@ const FooterPage = () => {
 
 
 
-<div className='flex flex-col gap-[70px]'>
+<div className='flex flex-col gap-[40px]'>
 
-      <div className='hidden sm:flex w-[1301px] h-[276]px sm:justify-between items-center pl-[250px] pt-1'>
+      <div className='hidden sm:flex w-[1301px] h-[276]px sm:justify-between items-center pl-[150px] pt-1'>
          <div className='flex flex-col gap-4'>
           <Image src="/techpyro.svg" 
         alt='TechPyro Logo'
@@ -134,16 +134,18 @@ const FooterPage = () => {
           <Link href="/blog">Server Management</Link>
           <Link href="/blog">Web Design & Development</Link>
          </div>
-         <div className='flex flex-col justify-between items-start'>
-          <h1>Join Newsletter</h1>
+         <div className='flex flex-col justify-between items-start gap-5'>
+          <h1 className='text-[18px] Poppins'>Join Newsletter</h1>
           <div className='flex flex-col items-start'>
-          <input type="text" placeholder='Enter your email' />
+          <input className='w-[342px] h-[54px] p-4' type="text" placeholder='Type email hare...' />
           </div>
-           <button>Subscribe</button>
+           <div className='bg-[#0C487B] w-[138px] sm:w-full h-[54px] text-center rounded cursor-pointer'>
+            <button className='text-[18px] font-semibold Inter pt-3'>Subscribe</button>
+            </div>
          </div>
       </div>
       <hr/>
-      <div className='flex justify-between px-10'>
+      <div className='flex justify-evenly items-center pt-10'>
         <div><h1>© All rights reserved –  TECH PYRO</h1></div>
         <div className='flex gap-3'>
           <h1>Privacy Policy</h1>
