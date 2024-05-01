@@ -1,7 +1,9 @@
+
 import Image from 'next/image'
 import React from 'react'
 
-const ContactPage = () => {
+
+const ContactPage:React.FC = () => {
   return (
     <div>
       <div className="relative h-full w-full bg-custom-bg bg-cover bg-center text-white">
@@ -12,6 +14,10 @@ const ContactPage = () => {
           <h1 className='text-[24px] font-black'>Get In Tuch</h1>
            <Image className='pt-3' src="rtc1.svg" width={383} height={1} alt='map' />
         </div>
+
+        <form>
+
+        </form>
       </div>
       <div>
         <Image src="map.svg" width={368} height={211} alt='map' />
