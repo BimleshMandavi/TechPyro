@@ -132,7 +132,6 @@ const FooterPage = () => {
           <Link href="/services">Logo designing</Link>
           <Link href="/contact">Graphics designing</Link>
           <Link href="/blog">Server Management</Link>
-          <Link href="/blog">Web Design & Development</Link>
          </div>
          <div className='flex flex-col justify-between items-start gap-5'>
           <h1 className='text-[18px] Poppins'>Join Newsletter</h1>
