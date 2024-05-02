@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <div className=' sm:h-full'>
       <div className="relative h-[640px] w-full bg-custom-bg bg-cover bg-center text-white">
-      <div className="absolute inset-0 bg-black bg-opacity-85" />
+      <div className="absolute inset-0 bg-black bg-opacity-85 sm:bg-opacity-70" />
       <div className="relative flex items-center  h-full  ml-4 text-start sm:px-8">
         <div className="flex justify-between flex-col gap-1 mx-6">
         <h4 className="text-[14px] text-[#FF7F0E]">TECH PYRO</h4>
