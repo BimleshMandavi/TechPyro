@@ -25,9 +25,7 @@ const ContactPage:React.FC = () => {
           <Input className='bg-[#0A0A0A] h-[44px] w-[316px]' type="email" placeholder="Email Address" />
            <Input className='bg-[#0A0A0A] h-[44px] w-[316px]' type="tel" placeholder="Enter contact number" />
            <Input className='bg-[#0A0A0A] h-[44px] w-[316px]' type="text" placeholder="How did you find us?" />
-           <div className='bg-[#0C487B] w-[138px] sm:w-full h-[40px] text-center rounded '>
-            <button className='text-[12px] font-semibold Inter pt-3'>SUBMIT INQUIRY</button>
-            </div>
+            <button className='text-[12px] font-semibold Inter  bg-[#0C487B] w-[138px] sm:w-full h-[40px] text-center rounded '>SUBMIT INQUIRY</button>
       </form>
       <div className='bg-[#0A0A0A] w-[358px] h-[165px] flex flex-wrap items-center gap-6 p-4'>
             <div className='flex gap-3'>

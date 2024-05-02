@@ -1,8 +1,13 @@
+"use client"
 import Image from 'next/image'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation';
 import React from 'react'
 
+
 const Navbar = () => {
+const pathname = usePathname()
+
   return (
     <div className='bg-black  sm:w-[1807px] sm:h-[100px] md:h-full md:w-full text-white flex justify-between items-center'>
       <Link className='flex justify-between px-4 py-4 ' href="/">
@@ -15,11 +20,11 @@ const Navbar = () => {
      />
       </Link>
        <div className='hidden sm:flex sm:justify-between sm:gap-4 '>
-        <Link className='text-[#FF7F0E]' href="/">HOME</Link>
-        <Link className='pl-4' href="/about">ABOUT US</Link>
-        <Link className='pl-4' href="blog">BLOG</Link>
-        <Link className='pl-4' href="carrier">CARRIER</Link>
-        <Link className='pl-4' href="contact">CONTACT US</Link>
+        <Link className={pathname === "/"? 'text-[#FF7F0E]':"text-white"} href="/">HOME</Link>
+        <Link className={pathname === "/about"? 'text-[#FF7F0E]':"text-white"} href="/about">ABOUT US</Link>
+        <Link className={pathname === "/blog"? 'text-[#FF7F0E]':"text-white"} href="blog">BLOG</Link>
+        <Link className={pathname === "/carrier"? 'text-[#FF7F0E]':"text-white"} href="carrier">CARRIER</Link>
+        <Link className={pathname === "/contact"? 'text-[#FF7F0E]':"text-white"} href="contact">CONTACT US</Link>
       </div>
       <div className=''>
          <Image src="/rectangle.svg" 

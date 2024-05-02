@@ -29,8 +29,7 @@ export default function Home() {
           <FaPlayCircle className="" />
            <div><button className="text-[12px]">SWIPE TO THIS VIDEO</button></div>
            </div>
-           <div className="h-[44px]  bg-[#000000] flex justify-center items-center rounded text-center"><button className="text-[12px]">WE ARE HIRING</button></div>
-        </div>
+           <button className="text-[12px] h-[44px]  bg-[#000000] flex justify-center items-center rounded text-center sm:px-3">WE ARE HIRING</button></div>
         </div>
       </div>
     </div>

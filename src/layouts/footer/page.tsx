@@ -5,7 +5,7 @@ import React from 'react'
 const FooterPage = () => {
   return (
     <div className=' bg-[#1B1B1B] text-white pt-8 h-[111px] sm:h-[469px] sm:w-full'>
-      <div className='flex justify-between sm:hidden px-5  top-[6842px] left-[1px]'>
+      <div className='flex justify-between md:hidden px-5  top-[6842px] left-[1px]'>
       <div className='flex flex-col justify-center items-center gap-4 text-center'>
      <Link href="about">
       <div className='text-center'>
@@ -69,7 +69,7 @@ const FooterPage = () => {
       </Link>
       </div>
       </div>
-      <div className='py-3 flex sm:hidden justify-center'>
+      <div className='py-3 flex md:hidden justify-center'>
          <Image 
               src="/line.svg"
               alt="Line Logo"
@@ -85,7 +85,7 @@ const FooterPage = () => {
 
 <div className='flex flex-col gap-[40px]'>
 
-      <div className='hidden sm:flex w-[1301px] h-[276]px sm:justify-between items-center pl-[150px] pt-1'>
+      <div className='hidden md:flex w-[1301px] h-[276]px md:justify-between items-center pl-[150px] pt-1'>
          <div className='flex flex-col gap-4'>
           <Image src="/techpyro.svg" 
         alt='TechPyro Logo'
@@ -137,11 +137,9 @@ const FooterPage = () => {
          <div className='flex flex-col justify-between items-start gap-5'>
           <h1 className='text-[18px] Poppins'>Join Newsletter</h1>
           <div className='flex flex-col items-start'>
-          <input className='w-[342px] h-[54px] p-4' type="text" placeholder='Type email hare...' />
+          <input className='w-[342px] h-[54px] p-4 text-black' type="email" placeholder='Type email hare...' />
           </div>
-           <div className='bg-[#0C487B] w-[138px] sm:w-full h-[54px] text-center rounded cursor-pointer'>
-            <button className='text-[18px] font-semibold Inter pt-3'>Subscribe</button>
-            </div>
+            <button className='text-[18px] font-semibold Inter  bg-[#0C487B] w-[138px] sm:w-full h-[54px] text-center rounded cursor-pointer'>Subscribe</button>
          </div>
       </div>
       <hr/>
