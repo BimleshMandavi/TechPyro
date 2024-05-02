@@ -4,7 +4,7 @@ import React from 'react'
 
 const FooterPage = () => {
   return (
-    <div className=' bg-[#1B1B1B] text-white pt-8 h-[111px] sm:h-[469px] sm:w-full'>
+    <div className=' bg-[#1B1B1B] text-white  pt-8 h-[111px] sm:h-[469px] sm:w-full'>
       <div className='flex justify-between md:hidden px-5  top-[6842px] left-[1px]'>
       <div className='flex flex-col justify-center items-center gap-4 text-center'>
      <Link href="about">
