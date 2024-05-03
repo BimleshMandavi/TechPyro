@@ -67,7 +67,7 @@ const BlogPage = () => {
             <div className='flex gap-5 pl-4 items-center pt-2'>
               <div>
                 <Image src="/avtar2.svg" width={32} height={32} alt='avtar'/>
-              </div>
+                </div>
               <div>
                 <h3 className='text-[12px]'>Cameron Williamson</h3>
                 <p className='text-[10px]'>5 min read</p>
@@ -111,7 +111,7 @@ const BlogPage = () => {
           <div className='bg-white h-[142px] text-black'>
             <div className='flex p-4 gap-8'>
             <div className='flex gap-1'>
-              <Image src="/like.svg" width={17} height={17} alt='like'/>
+            <Image src="/like.svg" width={17} height={17} alt='like'/>
               <span className='text-[12px]'>2,345 Likes</span>
             </div>
              <div className='flex gap-1'>
@@ -154,5 +154,4 @@ const BlogPage = () => {
     </div>
   )
 }
-
 export default BlogPage
