@@ -1,8 +1,9 @@
 
-import { Box, TextField, Typography } from '@mui/material'
 import Image from 'next/image'
 import React from 'react'
 import { Input } from "@/components/ui/input"
+import MyComponent from "@/app/googleMap/page"
+
 
 
 
@@ -57,8 +58,8 @@ const ContactPage:React.FC = () => {
             </div> 
           </div>
           </div>
-           <div className='sm:w-[50%] sm:h-[50%]'>
-        <Image className='sm:h-[325px]'  src="map.svg" width={368} height={211} alt='map' />
+           <div className='w-[168px] sm:w-[50%] sm:h-[50%]'> 
+        <MyComponent/>
       </div>
         </div>
       </div>
