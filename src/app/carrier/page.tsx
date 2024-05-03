@@ -3,7 +3,7 @@ import React from 'react'
 const CarrierPage = () => {
   return (
     <div>
-      <h1>Carrier Page</h1>
+      <h1>Hello</h1>
     </div>
   )
 }
