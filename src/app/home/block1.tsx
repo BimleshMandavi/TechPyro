@@ -19,9 +19,9 @@ const Block1 = () => {
           tools that help identify, assess, interview, and engage developers.
         </p>
         <div className="mt-10 flex justify-between w-full ">
-         <div className=" h-[44px] bg-[#0C487B] flex justify-evenly p-2 items-center rounded cursor-pointer">
+         <div className=" h-[44px] bg-[#0C487B] flex justify-evenly p-2 items-center rounded cursor-pointer gap-2">
           <FaPlayCircle className="" />
-           <div><button className="text-[12px]">SWIPE TO THIS VIDEO</button></div>
+           <button className="text-[12px]">SWIPE TO THIS VIDEO</button>
            </div>
            <button className="text-[12px] h-[44px]  bg-[#000000] flex justify-center items-center rounded text-center sm:px-3">WE ARE HIRING</button></div>
         </div>
