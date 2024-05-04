@@ -6,7 +6,7 @@ import  Block3  from "@/app/home/block3";
 
 export default function Home() {
   return (
-    <div className="pb-7  ">
+    <div className="pb-7 ">
    <Block1 />
    <Block2 />
     <Block3 />

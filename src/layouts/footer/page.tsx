@@ -83,9 +83,9 @@ const FooterPage = () => {
 
 
 
-<div className='flex flex-col gap-[40px]'>
+<div className='hidden md:flex flex-col gap-[40px]'>
 
-      <div className='hidden md:flex w-[1301px] h-[276]px md:justify-between items-center pl-[150px] pt-1'>
+      <div className=' w-[1301px] h-[276]px md:justify-between items-center pl-[150px] pt-1'>
          <div className='flex flex-col gap-4'>
           <Image src="/techpyro.svg" 
         alt='TechPyro Logo'

@@ -223,7 +223,7 @@ font-bold tracking-widest">WE WORK</h4>
          <AccordionDetails className="sm:w-[790px] sm:h-[377px]">
           <h1 className="text-[18px] text-start sm:text-center sm:font-bold py-4">Fintech</h1>
           <hr></hr>
-      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-[150px]"> 
+      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-7 sm:px-[150px]"> 
         <li>Software Engineer</li>
         <li>Stock Trading Platform.</li>
         <li>Lending & Alternative Financing Platforms</li>
@@ -239,7 +239,7 @@ font-bold tracking-widest">WE WORK</h4>
          <AccordionDetails>
           <h1 className="text-[18px] text-start sm:text-center sm:font-bold py-4">Fintech</h1>
           <hr></hr>
-      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-[150px]"> 
+      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-7 sm:px-[150px]"> 
         <li>Software Engineer</li>
         <li>Stock Trading Platform.</li>
         <li>Lending & Alternative Financing Platforms</li>
@@ -255,7 +255,7 @@ font-bold tracking-widest">WE WORK</h4>
          <AccordionDetails>
           <h1 className="text-[18px] text-start sm:text-center sm:font-bold py-4">Fintech</h1>
           <hr></hr>
-      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-[150px]"> 
+      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-7 sm:px-[150px]"> 
         <li>Software Engineer</li>
         <li>Stock Trading Platform.</li>
         <li>Lending & Alternative Financing Platforms</li>
@@ -271,7 +271,7 @@ font-bold tracking-widest">WE WORK</h4>
          <AccordionDetails>
           <h1 className="text-[18px] text-start sm:text-center sm:font-bold py-4">Fintech</h1>
           <hr></hr>
-      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-[150px]"> 
+      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-7 sm:px-[150px]"> 
         <li>Software Engineer</li>
         <li>Stock Trading Platform.</li>
         <li>Lending & Alternative Financing Platforms</li>
