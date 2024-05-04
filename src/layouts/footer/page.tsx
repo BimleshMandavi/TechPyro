@@ -4,8 +4,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
-import Headroom from "react-headroom"
-
 
 const FooterPage = () => {
 
@@ -13,24 +11,10 @@ const FooterPage = () => {
   console.log(pathname);
   
   return (
-   <Headroom
-      style={{
-        position: 'fixed', // Keep the footer fixed at the bottom
-        bottom: 0, // Position it at the bottom
-        width: '100%', // Make it as wide as the viewport
-      }}
-      wrapperStyle={{
-        height: '60px', // Set wrapper height to maintain space
-      }}
-      upTolerance={10} // React quickly to upward scrolls to hide the footer
-      downTolerance={10} // React quickly to downward scrolls to show the footer
-      disableInlineStyles={true} // Allow for custom styling
-      pinStart={0} // Pin from the beginning of the scroll
-    >
     <div className=' bg-[#1B1B1B]  text-white  pt-8 h-[111px] sm:h-[469px] sm:w-full'>
       <div className='flex justify-between md:hidden px-5  top-[6842px] left-[1px]'>
-      <div className='flex flex-col justify-center items-center gap-4 text-center'>
-     <Link className='flex flex-col justify-center items-center gap-2'  href="about">
+      <div className={'flex flex-col justify-center items-center gap-4 text-center'}>
+     <Link className='flex flex-col justify-center items-center'  href="about">
       <div className='text-center'> 
         <Image className=''
               src="/about.svg"
@@ -44,7 +28,7 @@ const FooterPage = () => {
      </Link>
       </div>
      <div className='flex flex-col justify-center items-center gap-2'>
-     <Link  className='flex flex-col justify-center items-center gap-2' href="blog">
+     <Link  className='flex flex-col justify-center items-center' href="blog">
         <Image
               src="/blog.svg"
               alt="Blog Logo"
@@ -56,7 +40,7 @@ const FooterPage = () => {
      </Link>
       </div>
       <div className='flex flex-col justify-center items-center gap-2'>
-      <Link  className='flex flex-col justify-center items-center gap-2' href="/">
+      <Link  className='flex flex-col justify-center items-center' href="/">
          <Image
               src="/home.svg"
               alt="Home Logo"
@@ -68,7 +52,7 @@ const FooterPage = () => {
       </Link>
       </div>
       <div className='flex flex-col justify-center items-center gap-2'>
-      <Link  className='flex flex-col justify-center items-center gap-2' href="carrier">
+      <Link  className='flex flex-col justify-center items-center' href="carrier">
          <Image
               src="/carrier.svg"
               alt="Carrier Logo"
@@ -80,7 +64,7 @@ const FooterPage = () => {
       </Link>
       </div>
       <div >
-      <Link  className='flex flex-col justify-center items-center gap-2' href="contact">
+      <Link  className='flex flex-col justify-center items-center' href="contact">
          <Image
               src="/contact.svg"
               alt="Vercel Logo"
@@ -102,9 +86,9 @@ const FooterPage = () => {
             />
       </div>
 
-<div className='hidden md:flex flex-col gap-[40px]'>
+<div className='hidden md:flex flex-col gap-[40px] flex-wrap'>
 
-      <div className=' w-[1301px] h-[276]px md:justify-between items-center pl-[150px] pt-1'>
+      <div className='md:flex w-[1301px] h-[276]px md:justify-between items-center pl-[150px] pt-1 flex-wrap'>
          <div className='flex flex-col gap-4'>
           <Image src="/techpyro.svg" 
         alt='TechPyro Logo'
@@ -136,7 +120,7 @@ const FooterPage = () => {
         priority />
         </div>
          </div>
-         <div className='flex flex-col gap-3'>
+         <div className='flex flex-col gap-3 flex-wrap'>
           <h1>Company</h1>
           <Link href="/about">About Us</Link>
           <Link href="/carrier">Careers</Link>
@@ -152,7 +136,7 @@ const FooterPage = () => {
           <Link href="/contact">Graphics designing</Link>
           <Link href="/blog">Server Management</Link>
          </div>
-         <div className='flex flex-col justify-between items-start gap-5'>
+         <div className='flex flex-col justify-between items-start gap-5 flex-wrap'>
           <h1 className='text-[18px] Poppins'>Join Newsletter</h1>
           <div className='flex flex-col items-start'>
           <input className='w-[342px] h-[54px] p-4 text-black' type="email" placeholder='Type email hare...' />
@@ -170,7 +154,6 @@ const FooterPage = () => {
       </div>
       </div>
     </div>
-    </Headroom>
   )
 }
 
