@@ -223,7 +223,7 @@ font-bold tracking-widest">WE WORK</h4>
          <AccordionDetails className="sm:w-[790px] sm:h-[377px]">
           <h1 className="text-[18px] text-start sm:text-center sm:font-bold py-4">Fintech</h1>
           <hr></hr>
-      <ul className="list-disc flex justify-evenly flex-wrap gap-3 py-3 sm:text-[22px]"> 
+      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-[150px]"> 
         <li>Software Engineer</li>
         <li>Stock Trading Platform.</li>
         <li>Lending & Alternative Financing Platforms</li>
@@ -239,7 +239,7 @@ font-bold tracking-widest">WE WORK</h4>
          <AccordionDetails>
           <h1 className="text-[18px] text-start sm:text-center sm:font-bold py-4">Fintech</h1>
           <hr></hr>
-      <ul className="list-disc flex justify-evenly flex-wrap gap-3 py-3 sm:text-[22px]"> 
+      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-[150px]"> 
         <li>Software Engineer</li>
         <li>Stock Trading Platform.</li>
         <li>Lending & Alternative Financing Platforms</li>
@@ -255,7 +255,7 @@ font-bold tracking-widest">WE WORK</h4>
          <AccordionDetails>
           <h1 className="text-[18px] text-start sm:text-center sm:font-bold py-4">Fintech</h1>
           <hr></hr>
-      <ul className="list-disc flex justify-evenly flex-wrap gap-3 py-3 sm:text-[22px]"> 
+      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-[150px]"> 
         <li>Software Engineer</li>
         <li>Stock Trading Platform.</li>
         <li>Lending & Alternative Financing Platforms</li>
@@ -271,14 +271,14 @@ font-bold tracking-widest">WE WORK</h4>
          <AccordionDetails>
           <h1 className="text-[18px] text-start sm:text-center sm:font-bold py-4">Fintech</h1>
           <hr></hr>
-      <ul className="list-disc flex justify-evenly flex-wrap gap-3 py-3 sm:text-[22px]"> 
+      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-[150px]"> 
         <li>Software Engineer</li>
         <li>Stock Trading Platform.</li>
         <li>Lending & Alternative Financing Platforms</li>
-        <li>Insurtech</li>
+        <li>AI/ML solutions</li>
+         <li>Insurtech</li>
         <li>Digital Banking</li>
         <li>Ecommerce</li>
-        <li>AI/ML solutions</li>
 
       </ul>
     </AccordionDetails>
@@ -295,7 +295,7 @@ font-bold tracking-widest">WE WORK</h4>
           </p>
         </div>
         <div className="sm:flex sm:justify-evenly sm:gap-5">
-        <div className="border-2 border-[#717171]  h-[314px] p-4 rounded-lg  mt-5 ">
+        <div className="border-2 border-[#717171] sm:w-[368px] h-[314px] p-4 rounded-lg  mt-5 ">
         <div className=" flex gap-4 my-4 py-5">
           <div className="">
             <Avatar>
