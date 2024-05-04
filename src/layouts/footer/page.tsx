@@ -1,10 +1,11 @@
 "use client"
 
-import { log } from 'console'
 import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
+import Headroom from "react-headroom"
+
 
 const FooterPage = () => {
 
@@ -12,6 +13,17 @@ const FooterPage = () => {
   console.log(pathname);
   
   return (
+   <Headroom
+      style={{
+        position: 'fixed', // Keep the footer fixed at the bottom
+        bottom: 0, // Position it at the bottom
+        width: '100%', // Make it as wide as the viewport
+      }}
+      wrapperStyle={{
+        height: '60px', // Set wrapper height to maintain space
+      }}
+      disableInlineStyles={true} // Disable default inline styles
+    >
     <div className=' bg-[#1B1B1B]  text-white  pt-8 h-[111px] sm:h-[469px] sm:w-full'>
       <div className='flex justify-between md:hidden px-5  top-[6842px] left-[1px]'>
       <div className='flex flex-col justify-center items-center gap-4 text-center'>
@@ -155,6 +167,7 @@ const FooterPage = () => {
       </div>
       </div>
     </div>
+    </Headroom>
   )
 }
 
