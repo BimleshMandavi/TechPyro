@@ -1,14 +1,22 @@
+"use client"
+
+import { log } from 'console'
 import Image from 'next/image'
 import Link from 'next/link'
+import { usePathname } from 'next/navigation'
 import React from 'react'
 
 const FooterPage = () => {
+
+  const pathname = usePathname()
+  console.log(pathname);
+  
   return (
-    <div className=' bg-[#1B1B1B] text-white  pt-8 h-[111px] sm:h-[469px] sm:w-full'>
+    <div className=' bg-[#1B1B1B]  text-white  pt-8 h-[111px] sm:h-[469px] sm:w-full'>
       <div className='flex justify-between md:hidden px-5  top-[6842px] left-[1px]'>
       <div className='flex flex-col justify-center items-center gap-4 text-center'>
-     <Link href="about">
-      <div className='text-center'>
+     <Link className='flex flex-col justify-center items-center gap-2'  href="about">
+      <div className='text-center'> 
         <Image className=''
               src="/about.svg"
               alt="About Logo"
@@ -21,7 +29,7 @@ const FooterPage = () => {
      </Link>
       </div>
      <div className='flex flex-col justify-center items-center gap-2'>
-     <Link href="blog">
+     <Link  className='flex flex-col justify-center items-center gap-2' href="blog">
         <Image
               src="/blog.svg"
               alt="Blog Logo"
@@ -33,7 +41,7 @@ const FooterPage = () => {
      </Link>
       </div>
       <div className='flex flex-col justify-center items-center gap-2'>
-      <Link href="/">
+      <Link  className='flex flex-col justify-center items-center gap-2' href="/">
          <Image
               src="/home.svg"
               alt="Home Logo"
@@ -45,7 +53,7 @@ const FooterPage = () => {
       </Link>
       </div>
       <div className='flex flex-col justify-center items-center gap-2'>
-      <Link href="carrier">
+      <Link  className='flex flex-col justify-center items-center gap-2' href="carrier">
          <Image
               src="/carrier.svg"
               alt="Carrier Logo"
@@ -56,8 +64,8 @@ const FooterPage = () => {
         <div>Carrier</div>
       </Link>
       </div>
-      <div className='flex flex-col justify-center items-center gap-2'>
-      <Link href="contact">
+      <div >
+      <Link  className='flex flex-col justify-center items-center gap-2' href="contact">
          <Image
               src="/contact.svg"
               alt="Vercel Logo"
@@ -78,10 +86,6 @@ const FooterPage = () => {
               priority
             />
       </div>
-
-
-
-
 
 <div className='hidden md:flex flex-col gap-[40px]'>
 
