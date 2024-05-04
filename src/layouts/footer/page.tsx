@@ -11,7 +11,7 @@ const FooterPage = () => {
   console.log(pathname);
   
   return (
-    <div className=' bg-[#1B1B1B]  text-white  pt-8 h-[111px] sm:h-[469px] sm:w-full'>
+    <div className=' bg-[#1B1B1B]  text-white w-full  pt-8 h-[111px] sm:h-[469px] w-full'>
       <div className='flex justify-between md:hidden px-5  top-[6842px] left-[1px]'>
       <div className={'flex flex-col justify-center items-center gap-4 text-center'}>
      <Link className='flex flex-col justify-center items-center'  href="about">
@@ -86,9 +86,9 @@ const FooterPage = () => {
             />
       </div>
 
-<div className='hidden md:flex flex-col gap-[40px] flex-wrap'>
+<div className='hidden md:flex flex-col gap-[40px] flex-wrap w-full'>
 
-      <div className='md:flex w-[1301px] h-[276]px md:justify-between items-center pl-[150px] pt-1 flex-wrap'>
+      <div className='md:flex  h-[276]px md:justify-between items-center px-10 pt-1 flex-wrap'>
          <div className='flex flex-col gap-4'>
           <Image src="/techpyro.svg" 
         alt='TechPyro Logo'
@@ -139,7 +139,7 @@ const FooterPage = () => {
          <div className='flex flex-col justify-between items-start gap-5 flex-wrap'>
           <h1 className='text-[18px] Poppins'>Join Newsletter</h1>
           <div className='flex flex-col items-start'>
-          <input className='w-[342px] h-[54px] p-4 text-black' type="email" placeholder='Type email hare...' />
+          <input className='w-[342px] sm:w-full h-[54px] p-4 text-black' type="email" placeholder='Type email hare...' />
           </div>
             <button className='text-[18px] font-semibold Inter  bg-[#0C487B] w-[138px] sm:w-full h-[54px] text-center rounded cursor-pointer'>Subscribe</button>
          </div>

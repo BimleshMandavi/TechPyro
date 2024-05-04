@@ -3,9 +3,9 @@ import React from 'react'
 
 const AboutPage = () => {
   return (
-    <div className=' sm:h-full'>
+    <div className=' sm:h-full sm:w-full'>
       <div className="relative h-[640px] w-full bg-custom-bg bg-cover bg-center text-white">
-      <div className="absolute inset-0 bg-black bg-opacity-85 sm:bg-opacity-70" />
+      <div className="absolute w-full inset-0 bg-black bg-opacity-85 sm:bg-opacity-70" />
       <div className="relative flex items-center  h-full  ml-4 text-start sm:px-8">
         <div className="flex justify-between flex-col gap-1 mx-6">
         <h4 className="text-[14px] text-[#FF7F0E]">TECH PYRO</h4>
@@ -34,7 +34,7 @@ const AboutPage = () => {
         <Image className='sm:w-[1614px] sm:h-[538px] p-8' src='/leaders.svg' alt='lead' height={132} width={496} />
       </div>
       </div>
-      <div className='h-[1123px] sm:h-[873px] bg-[#000000] text-white sm:pt-[273px] sm:px-7 sm:flex'>
+      <div className=' bg-[#000000] text-white sm:pt-[273px] sm:px-7 sm:flex'>
         <div className='pt-[210px] flex flex-col gap-3 px-5'>
           <h4 className='text-[11px] text-[#FF7F0E]'>BACKGROUND</h4>
          <div className='text-[28px]'> <h1 className='font-bold '>The purpose</h1>
@@ -42,7 +42,7 @@ const AboutPage = () => {
           <p>Tech pyro is a tech hiring platform that helps recruiters and engineering managers effortlessly hire the best developers thanks to a powerful suite of virtual recruiting tools that help identify, assess, interview and engage developers.</p>
           <p>The current program will run through 2022, with participants divided into four cohorts.</p>
         </div>
-        <div className='pt-12 px-5 flex flex-col gap-4 sm:pt-[243px]'>
+        <div className='pt-12 px-5 flex flex-col gap-4 '>
           <div className='text-[28px] sm:flex sm:gap-3'>
             <h1 className='font-bold'>Who</h1>
             <h1>are we looking For?</h1>
@@ -89,21 +89,21 @@ const AboutPage = () => {
       </div>
     </div>
     <div>
-      <div className='bg-[#050505]  h-[1011px] flex flex-col  items-center text-white gap-3'>
+      <div className='bg-[#050505]  h-[1011px] flex flex-col px-4  items-center text-white gap-3'>
         <div className='sm:flex sm:gap-5'>
         <div className='text-center pt-9'>
-          <Image className='sm:w-[641px] sm:h-[518px]' src="/mission1.svg" alt='mission' width={366} height={245} />
+          <Image className='sm:w-[641px] sm:h-[518px] px-4' src="/mission1.svg" alt='mission' width={366} height={245} />
         </div>
         <div className='w-[358px] sm:w-[784px] sm:pt-10 sm:pl-6'>
-          <h1 className='text-[25px] font-bold sm:text-[50px] '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
-          <p  className='text-[14px]'>ThinkHumble is a tech hiring platform that helps recruiters and engineering managers effortlessly hire the best developers thanks to </p>
-        <div>
-          <Image className='sm:w-[894px]' src="/mission2.svg" alt='mission' width={366} height={245} />
+          <h1 className='text-[25px] font-bold sm:text-[50px] px-4 '>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h1>
+          <p  className='text-[14px] px-4'>ThinkHumble is a tech hiring platform that helps recruiters and engineering managers effortlessly hire the best developers thanks to </p>
+        <div className='pt-4'>
+          <Image className='sm:w-[894px] px-4' src="/mission2.svg" alt='mission' width={366} height={245} />
         </div>
         </div>
         </div>
         <div>
-            <Image className='sm:mr-[845px] sm:w-[641px] sm:h-[293px]' src="/mission3.svg" alt='mission' width={366} height={245} />
+            <Image className='sm:mr-[845px] sm:w-[641px] sm:h-[293px] px-4' src="/mission3.svg" alt='mission' width={366} height={245} />
         </div>
       </div>
       <div className='bg-[#050505]  h-[1211px] sm:h-[345px]  text-white flex flex-col  px-8 '>
@@ -148,15 +148,9 @@ const AboutPage = () => {
           <span className='text-[28px] font-normal'>Best Teams</span>
           <p className='text-[14px] font-medium pt-4'>ThinkHumble is a tech hiring platform that helps recruiters and engineering managers effortlessly hire the best developers thanks</p>
         </div>
-        <div className='flex pt-4 flex-wrap w-full justify-evenly'>
-          <Image src="men1.svg" width={177.51} height={286} alt='grp'/>
-          <Image src="women1.svg" width={177.51} height={286} alt='grp'/>
-              <Image className='hidden sm:flex' src="men1.svg" width={177.51} height={286} alt='grp'/>
-          <Image className='hidden sm:flex' src="women1.svg" width={177.51} height={286} alt='grp'/>
-              <Image className='hidden md:flex' src="men1.svg" width={177.51} height={286} alt='grp'/>
-          <Image className='hidden md:flex' src="women1.svg" width={177.51} height={286} alt='grp'/>
-              <Image className='hidden lg:flex' src="men1.svg" width={177.51} height={286} alt='grp'/>
-          <Image className='hidden lg:flex' src="women1.svg" width={177.51} height={286} alt='grp'/>
+        <div className='flex pt-4  w-full justify-between pl-3'>
+          <Image className='w-[50%]' src="men1.svg" width={177.51} height={286} alt='grp'/>
+          <Image className='w-[50%]' src="women1.svg" width={177.51} height={286} alt='grp'/>
         </div>
       </div>
     </div>
