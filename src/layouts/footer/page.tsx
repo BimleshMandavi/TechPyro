@@ -22,7 +22,10 @@ const FooterPage = () => {
       wrapperStyle={{
         height: '60px', // Set wrapper height to maintain space
       }}
-      disableInlineStyles={true} // Disable default inline styles
+      upTolerance={10} // React quickly to upward scrolls to hide the footer
+      downTolerance={10} // React quickly to downward scrolls to show the footer
+      disableInlineStyles={true} // Allow for custom styling
+      pinStart={0} // Pin from the beginning of the scroll
     >
     <div className=' bg-[#1B1B1B]  text-white  pt-8 h-[111px] sm:h-[469px] sm:w-full'>
       <div className='flex justify-between md:hidden px-5  top-[6842px] left-[1px]'>
