@@ -34,7 +34,7 @@ const AboutPage = () => {
         <Image className='sm:w-[1614px] sm:h-[538px] p-8' src='/leaders.svg' alt='lead' height={132} width={496} />
       </div>
       </div>
-      <div className=' bg-[#000000] text-white sm:pt-[273px] sm:px-7 sm:flex'>
+      <div className=' bg-[#000000] text-white sm:pt-[273px] sm:px-7 sm:flex py-8'>
         <div className='pt-[210px] flex flex-col gap-3 px-5'>
           <h4 className='text-[11px] text-[#FF7F0E]'>BACKGROUND</h4>
          <div className='text-[28px]'> <h1 className='font-bold '>The purpose</h1>
