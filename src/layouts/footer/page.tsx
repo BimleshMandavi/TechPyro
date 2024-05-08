@@ -8,12 +8,13 @@ import React from 'react'
 const FooterPage = () => {
 
   const pathname = usePathname()
-  
+   console.log(pathname);
+   
   return (
-    <div className=' bg-[#1B1B1B]  text-white w-full  pt-8 h-[111px] sm:h-[469px] w-full'>
-      <div className='flex justify-between md:hidden px-5  top-[6842px] left-[1px]'>
-      <div className={'flex flex-col justify-center items-center gap-4 text-center'}>
-     <Link className='flex flex-col justify-center items-center'  href="about">
+    <div className=' bg-[#1B1B1B]  text-white   h-[111px] sm:h-[469px] w-full text-center '>
+      <div className='flex justify-between md:hidden px-2  top-[6842px] left-[1px]'>
+      <div className={`${pathname === "/about" ? "border-t-2 border-red-500"  : ""}` +   'flex flex-col justify-center items-center gap-4 text-center pb-2'}>
+     <Link className='flex flex-col justify-center items-center pt-6'  href="about">
       <div className='text-center'> 
         <Image className=''
               src="/about.svg"
@@ -26,8 +27,8 @@ const FooterPage = () => {
         <div>About Us</div>
      </Link>
       </div>
-     <div className='flex flex-col justify-center items-center gap-2'>
-     <Link  className='flex flex-col justify-center items-center' href="blog">
+     <div className={`${pathname === "/blog" ? "border-t-2 border-red-500"  : ""}` +   'flex flex-col justify-center items-center gap-4 text-center pb-2'}>
+     <Link  className='flex flex-col justify-center items-center pt-6' href="blog">
         <Image
               src="/blog.svg"
               alt="Blog Logo"
@@ -38,8 +39,8 @@ const FooterPage = () => {
         <div>Blogs</div>
      </Link>
       </div>
-      <div className='flex flex-col justify-center items-center gap-2'>
-      <Link  className='flex flex-col justify-center items-center' href="/">
+      <div className={`${pathname === "/" ? "border-t-2 border-red-500"  : ""}` +   'flex flex-col justify-center items-center gap-4 text-center pb-2'}>
+      <Link  className='flex flex-col justify-center items-center pt-6' href="/">
          <Image
               src="/home.svg"
               alt="Home Logo"
@@ -50,8 +51,8 @@ const FooterPage = () => {
         <div>Home</div>
       </Link>
       </div>
-      <div className='flex flex-col justify-center items-center gap-2'>
-      <Link  className='flex flex-col justify-center items-center' href="carrier">
+      <div className={`${pathname === "/carrier" ? "border-t-2 border-red-500"  : ""}` +   'flex flex-col justify-center items-center gap-4 text-center pb-2'}>
+      <Link  className='flex flex-col justify-center items-center pt-6' href="carrier">
          <Image
               src="/carrier.svg"
               alt="Carrier Logo"
@@ -62,8 +63,8 @@ const FooterPage = () => {
         <div>Carrier</div>
       </Link>
       </div>
-      <div >
-      <Link  className='flex flex-col justify-center items-center' href="contact">
+      <div className={`${pathname === "/contact" ? "border-t-2 border-red-500"  : ""}` +   'flex flex-col justify-center items-center gap-4 text-center pb-2'}>
+      <Link  className='flex flex-col justify-center items-center pt-6' href="contact">
          <Image
               src="/contact.svg"
               alt="Vercel Logo"
