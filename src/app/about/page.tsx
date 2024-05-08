@@ -42,7 +42,7 @@ const AboutPage = () => {
           <p>Tech pyro is a tech hiring platform that helps recruiters and engineering managers effortlessly hire the best developers thanks to a powerful suite of virtual recruiting tools that help identify, assess, interview and engage developers.</p>
           <p>The current program will run through 2022, with participants divided into four cohorts.</p>
         </div>
-        <div className='pt-12 px-5 flex flex-col gap-4 '>
+        <div className='pt-12 px-5 flex flex-col gap-4 sm:pt-[273px]'>
           <div className='text-[28px] sm:flex sm:gap-3'>
             <h1 className='font-bold'>Who</h1>
             <h1>are we looking For?</h1>
