@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
-
+import Headroom from "react-headroom"
 const FooterPage = () => {
 
   const pathname = usePathname()
@@ -12,6 +12,18 @@ const FooterPage = () => {
    
   return (
     <div className=' bg-[#1B1B1B]  text-white   h-[111px] sm:h-[469px] w-full text-center lg:pt-5 '>
+      <Headroom wrapperStyle={{
+        position: 'fixed',
+        bottom: 0,
+        left: 0,
+        right: 0,
+        zIndex: 1, 
+      }}
+      style={{
+        backgroundColor: '#1B1B1B', 
+        color: 'white',
+        padding: '10px',
+      }}>
       <div className='bg-[#1B1B1B]  text-white' style={{ position: 'fixed', bottom: 0, left: 0, right: 0 }}>
       <div className='flex justify-between md:hidden px-2  top-[6842px] left-[1px]'>
       <div className={`${pathname === "/about" ? "border-t-2 border-red-500"  : ""}` +   'flex flex-col justify-center items-center gap-4 text-center pb-2'}>
@@ -87,6 +99,7 @@ const FooterPage = () => {
             />
       </div>
       </div>
+      </Headroom>
 
 <div className='hidden md:flex flex-col gap-[40px] flex-wrap w-full'>
 
