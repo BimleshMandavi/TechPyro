@@ -12,7 +12,7 @@ const FooterPage = () => {
    
   return (
     <div className=' bg-[#1B1B1B]  text-white   h-[111px] sm:h-[469px] w-full text-center  '>
-      <div className='flex justify-between md:hidden px-2  top-[6842px] left-[1px]'>
+      <div className='flex justify-between md:hidden px-2 bg-[#1B1B1B]  text-white   h-[111px] sm:h-[469px] w-full text-center ' style={{ position: 'fixed', bottom: 0, left: 0, right: 0 }}>
       <div className={`${pathname === "/about" ? "border-t-2 border-red-500"  : ""}` +   'flex flex-col justify-center items-center gap-4 text-center pb-2'}>
      <Link className='flex flex-col justify-center items-center pt-6'  href="about">
       <div className='text-center'> 
