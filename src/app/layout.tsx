@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/layouts/navbar/page";
 import FooterPage from "@/layouts/footer/page";
+import Sidebar from "@/layouts/sidebar/page";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,12 +18,19 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+     <html lang="en">
       <body className={inter.className}>
-        <Navbar/>
-        {children}
+        <Navbar />
+        <div className="flex"> 
+          <div className="flex-grow reletive">
+            {children}
+          </div>
+          <div className="absolute right-0">
+            <Sidebar />
+          </div>
+        </div>
         <FooterPage />
-        </body>
+      </body>
     </html>
   );
 }
