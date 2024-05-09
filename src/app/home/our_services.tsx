@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Block2 = () => {
+const Our_services = () => {
   return (
     <div>
         <div className=" py-8  px-14">
@@ -16,4 +16,4 @@ const Block2 = () => {
   )
 }
 
-export default Block2
+export default Our_services

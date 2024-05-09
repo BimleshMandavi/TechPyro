@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 import { FaPlayCircle } from 'react-icons/fa'
 
-const Block1 = () => {
+const About_section = () => {
   return (
     <div className='overflow-x-hidden'>
        <div className="relative h-[728.98px] w-full bg-custom-bg bg-cover bg-center text-white">
@@ -31,4 +31,4 @@ const Block1 = () => {
   )
 }
 
-export default Block1
+export default About_section
