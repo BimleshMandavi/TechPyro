@@ -9,7 +9,7 @@ import MyComponent from "@/app/googleMap/page"
 
 const ContactPage:React.FC = () => {
   return (
-    <div className='h-full w-full'>
+    <div className='h-full w-full min-h-[100vh]'>
       <div className="relative h-full w-full bg-custom-bg bg-cover bg-center text-white">
       <div className="absolute inset-0 bg-black bg-opacity-80" />
      <div className='relative flex flex-col  items-center sm:flex-row sm:justify-center'>

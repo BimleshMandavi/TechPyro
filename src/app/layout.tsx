@@ -20,11 +20,14 @@ export default function RootLayout({
   return (
      <html lang="en">
       <body className={inter.className}>
-        <Navbar />
-        <div className="flex"> 
+  
+        <div className="flex overflow-x-hidden"> 
           <div className="flex-grow reletive">
             {children}
           </div>
+              <div className="absolute top-0">
+        <Navbar />
+        </div>
           <div className="absolute right-0">
             <Sidebar />
           </div>
