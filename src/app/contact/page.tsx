@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import React from 'react'
 import { Input } from "@/components/ui/input"
-import MyComponent from "@/app/googleMap/page"
+import MyComponent from "@/components/googleMap/page"
 
 
 
