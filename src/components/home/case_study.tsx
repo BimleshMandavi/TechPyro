@@ -6,79 +6,14 @@ import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import { IoIosArrowDropdownCircle } from "react-icons/io";
 import { Avatar } from "@mui/material";
+import Work_cards from '../cards/work_cards';
+import Services_card from '../cards/services_cards';
 
 const Case_study = () => {
   return (
     <div>
       <div className="px-5 py-5 flex flex-col  justify-center gap-8 ">
-      <div className=" w-full  sm:flex sm:flex-wrap  sm:gap-8 sm:w-full sm:mx-5">
-     <div className="flex   sm:w-[496px] sm:h-[386px] flex-col gap-2 border-r-[10px] border-b-[10px] border-[#0C487BD4] rounded-[14px] p-4  my-4">
-        <div className="flex"> 
-      <div className="border-2 border-red-500 rounded-full p-2"> 
-        <div className="rounded-full overflow-hidden"> 
-          <Image src="/code.svg" alt="code" width={24.3} height={24.3} />
-        </div>
-      </div>
-    </div>
-      <h1 className="text-black font-bold text-[16px]">Web Design & Development</h1>
-      <p className=''>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sit dolores corrupti laborum reprehenderit repellat ea numquam dolorum repellendus dolore a commodi illum optio, laboriosam hic quidem, qui delectus. Esse voluptate libero veritatis quisquam neque aperiam sapiente consequuntur tempora ab architecto. Explicabo maxime a quasi id atque! Suscipit, magnam excepturi!</p>
-      </div>
-        <div className="flex  flex-col sm:w-[496px] sm:h-[386px] gap-2 border-r-[10px] border-b-[10px] border-[#335c80d4] rounded-[14px] bg-[#0C487B] text-white  p-4 my-4">
-        <div className="flex"> 
-      <div className="border-2 border-red-500 rounded-full p-2"> 
-        <div className="rounded-full overflow-hidden"> 
-          <Image src="/code.svg" alt="code" width={24.3} height={24.3} />
-        </div>
-      </div>
-    </div>
-      <h1 className="text-white font-bold text-[16px]">App Design & Development</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sit dolores corrupti laborum reprehenderit repellat ea numquam dolorum repellendus dolore a commodi illum optio, laboriosam hic quidem, qui delectus. Esse voluptate libero veritatis quisquam neque aperiam sapiente consequuntur tempora ab architecto. Explicabo maxime a quasi id atque! Suscipit, magnam excepturi!</p>
-      </div>
-        <div className="flex flex-col sm:w-[496px] sm:h-[386px] gap-2 border-r-[10px] border-b-[10px] border-[#0C487BD4] rounded-[14px] my-4 p-5">
-        <div className="flex"> 
-      <div className="border-2 border-red-500 rounded-full p-2"> 
-        <div className="rounded-full overflow-hidden"> 
-          <Image src="/code.svg" alt="code" width={24.3} height={24.3} />
-        </div>
-      </div>
-    </div>
-      <h1 className="text-black font-bold text-[16px]">Dashboard OR CRM</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sit dolores corrupti laborum reprehenderit repellat ea numquam dolorum repellendus dolore a commodi illum optio, laboriosam hic quidem, qui delectus. Esse voluptate libero veritatis quisquam neque aperiam sapiente consequuntur tempora ab architecto. Explicabo maxime a quasi id atque! Suscipit, magnam excepturi!</p>
-      </div>
-        <div className="flex flex-col sm:w-[496px] sm:h-[386px] gap-2 border-r-[10px] border-b-[10px] border-[#0C487BD4] rounded-[14px] my-4 p-5">
-        <div className="flex"> 
-      <div className="border-2 border-red-500 rounded-full p-2"> 
-        <div className="rounded-full overflow-hidden"> 
-          <Image src="/code.svg" alt="code" width={24.3} height={24.3} />
-        </div>
-      </div>
-    </div>
-      <h1 className="text-black font-bold text-[16px]">Server Management</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sit dolores corrupti laborum reprehenderit repellat ea numquam dolorum repellendus dolore a commodi illum optio, laboriosam hic quidem, qui delectus. Esse voluptate libero veritatis quisquam neque aperiam sapiente consequuntur tempora ab architecto. Explicabo maxime a quasi id atque! Suscipit, magnam excepturi!</p>
-      </div>
-       <div className="flex flex-col sm:w-[496px] sm:h-[386px] gap-2 border-r-[10px] border-b-[10px] border-[#0C487BD4] rounded-[14px] my-4 p-5">
-        <div className="flex"> 
-      <div className="border-2 border-red-500 rounded-full p-2"> 
-        <div className="rounded-full overflow-hidden"> 
-          <Image src="/code.svg" alt="code" width={24.3} height={24.3} />
-        </div>
-      </div>
-    </div>
-      <h1 className="text-black font-bold text-[16px]">Logo designing</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sit dolores corrupti laborum reprehenderit repellat ea numquam dolorum repellendus dolore a commodi illum optio, laboriosam hic quidem, qui delectus. Esse voluptate libero veritatis quisquam neque aperiam sapiente consequuntur tempora ab architecto. Explicabo maxime a quasi id atque! Suscipit, magnam excepturi!</p>
-      </div>
-      <div className="flex flex-col sm:w-[496px] sm:h-[386px] gap-2 border-r-[10px] border-b-[10px] border-[#0C487BD4] rounded-[14px] my-4 p-5">
-        <div className="flex"> 
-      <div className="border-2 border-red-500 rounded-full p-2"> 
-        <div className="rounded-full overflow-hidden"> 
-          <Image src="/code.svg" alt="code" width={24.3} height={24.3} />
-        </div>
-      </div>
-    </div>
-      <h1 className="text-black font-bold text-[16px]">Graphics designing</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor sit dolores corrupti laborum reprehenderit repellat ea numquam dolorum repellendus dolore a commodi illum optio, laboriosam hic quidem, qui delectus. Esse voluptate libero veritatis quisquam neque aperiam sapiente consequuntur tempora ab architecto. Explicabo maxime a quasi id atque! Suscipit, magnam excepturi!</p>
-      </div>
-       </div>
+    <Services_card />
       <div className="sm:flex sm:gap-5">
       <div className="sm:w-[50%]">
          <Image className="sm:w-full sm:h-full" src="/meetup.svg" alt="code" width={500} height={100} />
@@ -213,79 +148,7 @@ font-bold tracking-widest">FAQ</h4>
           </div>
          </div>
       </div>
-      <div className="bg-gb-bg bg-cover w-[368pxpx] sm:w-[1621px]  pt-8">
-        <div className="text-center">
-        <h4 className="text-[#FF7F0E] text-base
-font-bold tracking-widest">WE WORK</h4>
-          <h1 className="font-bold text-[25px]">Industries We Work In</h1>
-          <div className="flex flex-col sm:flex-row sm:w-full sm:justify-between sm:items-center sm:flex-wrap pt-6 gap-4">
-             <Accordion>
-         <AccordionDetails className="sm:w-[790px] sm:h-[377px]">
-          <h1 className="text-[18px] text-start sm:text-center sm:font-bold py-4">Fintech</h1>
-          <hr></hr>
-      <ul className="list-disc list-disc-red flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-7 sm:px-[150px]"> 
-        <li>Software Engineer</li>
-        <li>Stock Trading Platform.</li>
-        <li>Lending & Alternative Financing Platforms</li>
-        <li>Insurtech</li>
-        <li>Digital Banking</li>
-        <li>Ecommerce</li>
-        <li>AI/ML solutions</li>
-
-      </ul>
-    </AccordionDetails>
-      </Accordion>
-            <Accordion className="sm:w-[790px] sm:h-[377px]">
-         <AccordionDetails>
-          <h1 className="text-[18px] text-start sm:text-center sm:font-bold py-4">Fintech</h1>
-          <hr></hr>
-      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-7 sm:px-[150px]"> 
-        <li>Software Engineer</li>
-        <li>Stock Trading Platform.</li>
-        <li>Lending & Alternative Financing Platforms</li>
-        <li>Insurtech</li>
-        <li>Digital Banking</li>
-        <li>Ecommerce</li>
-        <li>AI/ML solutions</li>
-
-      </ul>
-    </AccordionDetails>
-      </Accordion>
-            <Accordion className="sm:w-[790px] sm:h-[377px]">
-         <AccordionDetails>
-          <h1 className="text-[18px] text-start sm:text-center sm:font-bold py-4">Fintech</h1>
-          <hr></hr>
-      <ul className="list-disc flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-7 sm:px-[150px]"> 
-        <li>Software Engineer</li>
-        <li>Stock Trading Platform.</li>
-        <li>Lending & Alternative Financing Platforms</li>
-        <li>Insurtech</li>
-        <li>Digital Banking</li>
-        <li>Ecommerce</li>
-        <li>AI/ML solutions</li>
-
-      </ul>
-    </AccordionDetails>
-      </Accordion>
-            <Accordion className="sm:w-[790px] sm:h-[377px]">
-         <AccordionDetails>
-          <h1 className="text-[18px] text-start sm:text-center sm:font-bold py-4">Fintech</h1>
-          <hr></hr>
-      <ul className="list-disc  flex justify-start flex-wrap gap-6 py-3 sm:text-[22px] px-7 sm:px-[150px]" > 
-        <li>Software Engineer</li>
-        <li>Stock Trading Platform.</li>
-        <li>Lending & Alternative Financing Platforms</li>
-        <li>AI/ML solutions</li>
-         <li>Insurtech</li>
-        <li>Digital Banking</li>
-        <li>Ecommerce</li>
-
-      </ul>
-    </AccordionDetails>
-      </Accordion>
-          </div>
-          </div>
-      </div>
+    <Work_cards/>
       <div>
          <div className="text-start px-4">
           <h4 className="text-[#FF7F0E] font-bold tracking-widest">TESTIMONIALS</h4>
