@@ -1,9 +1,7 @@
 
-import  Block1  from "@/components/home/about_section";
-import  Block2  from "@/components/home/our_services";
-import  Block3  from "@/components/home/block3";
 import About_section from "@/components/home/about_section";
 import Our_services from "@/components/home/our_services";
+import Case_study from "@/components/home/case_study";
 
 
 export default function Home() {
@@ -11,7 +9,7 @@ export default function Home() {
     <div className="pb-7 w-full h-full ">
    <About_section />
    <Our_services />
-    <Block3 />
+    <Case_study />
     </div>
   );
 }

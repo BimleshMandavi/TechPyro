@@ -7,7 +7,7 @@ import Typography from '@mui/material/Typography';
 import { IoIosArrowDropdownCircle } from "react-icons/io";
 import { Avatar } from "@mui/material";
 
-const Block3 = () => {
+const Case_study = () => {
   return (
     <div>
       <div className="px-5 py-5 flex flex-col  justify-center gap-8 ">
@@ -399,4 +399,4 @@ font-bold tracking-widest">WE WORK</h4>
   )
 }
 
-export default Block3
+export default Case_study
