@@ -21,7 +21,7 @@ export default function RootLayout({
      <html lang="en">
       <body className={inter.className}>
   
-        <div className="flex overflow-x-hidden"> 
+        <div className="flex "> 
           <div className="flex-grow reletive">
             {children}
           </div>
