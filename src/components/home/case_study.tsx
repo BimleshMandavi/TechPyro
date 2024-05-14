@@ -148,8 +148,8 @@ font-bold tracking-widest">FAQ</h4>
           </div>
          </div>
       </div>
-    {/* <Work_cards/> */}
-      {/* <div>
+    <Work_cards/>
+      <div>
          <div className="text-start px-4">
           <h4 className="text-[#FF7F0E] font-bold tracking-widest">TESTIMONIALS</h4>
           <h1 className="font-bold text-[25px]">What Client Says</h1>
@@ -227,7 +227,7 @@ font-bold tracking-widest">FAQ</h4>
         <Image src="/client-logo.svg" alt="code" width={68} height={34} />
         </div>
         </div>
-      </div> */}
+      </div>
       <div>
         <h1 className="font-bold text-[25px] text-center">Innovative Partnerships, Infinite Possibilities</h1>
         <div className="h-[133.19px] flex justify-evenly flex-wrap mt-6">
