@@ -4,7 +4,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import React from 'react'
-import Headroom from "react-headroom"
+
 const FooterPage = () => {
 
   const pathname = usePathname()
