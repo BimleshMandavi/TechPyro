@@ -139,7 +139,7 @@ font-bold tracking-widest">FAQ</h4>
       </div>
       <div className="sm:flex justify-center">
          <div className="sm:w-[50%]">
-         <Image className="sm:w-full" src="/energy-startup.svg" alt="startup" width={471.73} height={219.1} />
+         <Image className="sm:w-full sm:h-full" src="/energy-startup.svg" alt="startup" width={471.73} height={219.1} />
          </div>
          <div className="bg-[#0C487B] sm:w-[50%]  text-white h-[200px] sm:h-[402px] flex flex-col justify-center items-center text-center">
           <h1 className="font-bold text-[28px]">Energy of a start-up combined with 30 years of experience.</h1>

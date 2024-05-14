@@ -93,13 +93,13 @@ const FooterPage = () => {
 <div className='hidden md:flex flex-col gap-[40px] flex-wrap w-full'>
 
       <div className='md:flex  h-[276px] md:justify-between items-center px-10 pt-1 flex-wrap'>
-         <div className='flex flex-col gap-4'>
+         <div className='flex flex-col gap-4 flex-wrap'>
           <Image src="/techpyro.svg" 
         alt='TechPyro Logo'
         height={91}
         width={75}
         priority />
-        <p className='w-[419px] text-[18px]'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eius aut sit nemo et quibusdam nihil iste provident? Nihil, facere.</p>
+        <p className='w-[419px] text-[18px] text-start'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum eius aut sit nemo et quibusdam nihil iste provident? Nihil, facere.</p>
        <div className='flex  gap-2 ' >
         <Link href="/"><Image src="/facebook.svg" 
         alt='Facebook Logo'

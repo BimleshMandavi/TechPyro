@@ -34,6 +34,7 @@ const serviceBlocks = [
   },
 ];
 
+
 const ServiceGrid = () => {
   return (
     <div className="w-full flex flex-wrap justify-between gap-7 lg:mx-5">
