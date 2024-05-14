@@ -4,7 +4,7 @@ import { FaPlayCircle } from 'react-icons/fa'
 
 const About_section = () => {
   return (
-    <div className='overflow-x-hidden'>
+    <div className='overflow-x-hidden '>
        <div className="relative h-[728.98px] w-full bg-custom-bg bg-cover bg-center text-white">
       <div className="absolute inset-0 bg-black bg-opacity-70" />
       <div className="relative flex items-center   h-full  space-y-4 ml-6 md:ml-8 text-start ">

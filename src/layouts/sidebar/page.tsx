@@ -5,7 +5,7 @@ import React from 'react'
 const Sidebar = () => {
   return (
     <div>
-      <div className='hidden lg:flex w-[113px] h-[974px] bg-[#000] bg-opacity-[30%]'>
+      <div className='hidden lg:flex w-[113px] h-[744px] bg-[#000] bg-opacity-[30%]'>
         <div className='flex flex-col  justify-center items-center w-full gap-3  ' >
         <Link href="/"><Image src="/facebook.svg" 
         alt='Facebook Logo'

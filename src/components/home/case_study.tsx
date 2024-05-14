@@ -11,10 +11,10 @@ import Services_card from '../cards/services_cards';
 
 const Case_study = () => {
   return (
-    <div>
+    <div className='w-full'>
       <div className="px-5 py-5 flex flex-col  justify-center gap-8 ">
     <Services_card />
-      <div className="sm:flex sm:gap-5">
+      <div className="sm:flex sm:gap-5 w-full">
       <div className="sm:w-[50%]">
          <Image className="sm:w-full sm:h-full" src="/meetup.svg" alt="code" width={500} height={100} />
       </div>
@@ -141,7 +141,7 @@ font-bold tracking-widest">FAQ</h4>
          <div className="sm:w-[50%]">
          <Image className="sm:w-full" src="/energy-startup.svg" alt="startup" width={471.73} height={219.1} />
          </div>
-         <div className="bg-[#0C487B]  text-white h-[200px] sm:h-[402px] flex flex-col justify-center items-center text-center">
+         <div className="bg-[#0C487B] sm:w-[50%]  text-white h-[200px] sm:h-[402px] flex flex-col justify-center items-center text-center">
           <h1 className="font-bold text-[28px]">Energy of a start-up combined with 30 years of experience.</h1>
           <div className="hidden sm:flex sm:justify-center bg-white text-[#FF7F0E] rounded-3xl sm:w-[216px] sm:h-[54px] sm:mt-4 ">
             <button>See Job Vacancies</button>

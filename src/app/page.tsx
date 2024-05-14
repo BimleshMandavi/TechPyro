@@ -6,7 +6,7 @@ import Case_study from "@/components/home/case_study";
 
 export default function Home() {
   return (
-    <div className="pb-7 w-full  h-full ">
+    <div className="pb-7   h-full ">
    <About_section />
    <Our_services />
     <Case_study />
