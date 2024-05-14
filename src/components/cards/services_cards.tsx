@@ -34,10 +34,9 @@ const serviceBlocks = [
   },
 ];
 
-// Create a component that maps over the array and renders each block
 const ServiceGrid = () => {
   return (
-    <div className="w-full flex flex-wrap justify-between gap-8  lg:mx-5">
+    <div className="w-full flex flex-wrap justify-between gap-7 lg:mx-5">
       {serviceBlocks.map((block, index) => (
         <div
           key={index}
