@@ -8,7 +8,7 @@ import React from 'react'
 const FooterPage = () => {
 
   const pathname = usePathname()
-   console.log(pathname);
+
    
   return (
     <div className=' bg-[#1B1B1B]  text-white   h-[111px] sm:h-[469px] w-full text-center lg:pt-5 mt-auto'>
