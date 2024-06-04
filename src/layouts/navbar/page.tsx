@@ -9,7 +9,7 @@ const Navbar = () => {
 const pathname = usePathname()
 
   return (
-    <div className=' text-white flex justify-between items-center bg-[#000] bg-opacity-[30%]  w-full'>
+    <div className=' text-white flex justify-between items-center bg-[#000] bg-opacity-[30%]  w-[100vw]'>
       <Link className='flex justify-between px-4 py-4 ' href="/">
         <Image src="/techpyro.svg" 
         alt='TechPyro Logo'
